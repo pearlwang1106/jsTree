@@ -3,4 +3,4 @@
 
 运行步骤：
 1. npm install或者cnpm install
-2. 在当前项目目录下，运行 gulp server 默认以谷歌浏览器打开
+2. 在当前项目目录下，运行 gulp server 使用系统默认浏览器打开
