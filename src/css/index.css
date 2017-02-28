@@ -1,0 +1,113 @@
+ul, li, i {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	clear: both;
+}
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+/*树形菜单*/
+.jsTree {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.jsTree__btn {
+	margin: 10px 20px;
+}
+.jsTree__btn input {
+	width: 100%;
+	border: none;
+	background-color: #e8e4e4;
+	border-radius: 3px;
+	line-height: 18px;
+	padding: 3px;
+}
+.jsTree__list {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+/*.jsTree__list ul {
+	margin: 0 18px;
+}*/
+.jsTree__list .item-1 span {
+	width: 14px;
+	height: 14px;
+	background: url(../images/tree_icon.png) no-repeat 0 0;
+	background-size: contain;
+	margin-right: 8px;
+	float: left;
+}
+.jsTree__list .item-2 i {
+	padding: 3px;
+}
+.jsTree__list a {
+	display: inline-block;
+	font-size: 14px;
+	padding: 3px 0;
+	color: #666;
+	overflow: hidden;
+	vertical-align: top;
+}
+.nav-first, .nav-second, .nav-three {
+	margin-left: 20px;
+}
+.nav-first, .nav-second, .nav-three i {
+	padding: 3px;
+}
+.nav-second .icon-plus {
+	vertical-align: sub;
+}
+.fold {
+	display: none;
+}
+.nav-three li:hover {
+	background-color: #fffceb;
+}
+
+/*add name*/
+.addName {
+	display: inline-block;
+	vertical-align: sub;
+	/*float: right;*/
+}
+.addName input[type=text] {
+	border: none;
+	background-color: #e8e4e4;
+	border-radius: 3px;
+	line-height: 18px;
+	padding: 3px;
+}
+.addName .sure {
+	border: none;
+	background-color: #e8e4e4;
+	border-radius: 3px;
+	line-height: 18px;
+	padding: 3px 6px;
+	font-size: 12px;
+	margin: 0 3px;
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.addName .cancel {
+	border: none;
+	background-color: #e8e4e4;
+	border-radius: 3px;
+	line-height: 18px;
+	padding: 3px 6px;
+	font-size: 12px;
+	margin: 0 3px;
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+/*搜索内容*/
+.jsTree__bg--color {
+	background-color: #d1edd6;
+}
