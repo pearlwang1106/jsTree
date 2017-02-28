@@ -66,7 +66,7 @@ gulp.task('server', function () {
     server: {
       baseDir: ['./src']
     },
-    browser: 'chrome'
+    browser: ''
   })
 })
 gulp.task('copy', function () {
