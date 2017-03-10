@@ -1,3 +1,4 @@
+// create by lee on 2017/03/10
 // 展开
 $('.item-1').click(function () {
   $(this).parent().find('.nav-second').slideToggle(500)
@@ -44,7 +45,7 @@ document.onkeydown = function (event) {
   }
 }
 // 搜索函数
-function goSearch () {
+function goSearch() {
   var searchValue = $('.jsTree--search').val()
   if (searchValue) {
     $('li a').each(function () {
