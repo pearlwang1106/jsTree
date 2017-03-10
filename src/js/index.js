@@ -1,4 +1,4 @@
-// create by lee on 2017/03/10
+/* create by lee on 2017/03/10 */
 // 展开
 $('.item-1').click(function () {
   $(this).parent().find('.nav-second').slideToggle(500)
